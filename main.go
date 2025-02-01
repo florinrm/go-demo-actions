@@ -6,6 +6,9 @@ import (
 
 // PrintMessage dummy function for printing
 func PrintMessage(str string) {
+	if str == "" {
+		return
+	}
 	fmt.Println(str)
 }
 
