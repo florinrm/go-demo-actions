@@ -24,7 +24,9 @@ jobs:
 
     - name: Build
       run: go build -v ./...
-
+  process:
+    runs-on: ubuntu-latest
+    steps:
     - name: Test
       run: go test -v ./...
     - name: Run a one-line script
