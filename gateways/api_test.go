@@ -196,7 +196,7 @@ func TestBooksAPI_Put_Success(t *testing.T) {
 		Genre:  "Novel",
 		Year:   1949,
 	}
-	id := "1234"
+	id := "123"
 
 	reqBytes, _ := json.Marshal(book)
 
